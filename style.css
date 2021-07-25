@@ -1,0 +1,71 @@
+*{
+    font-family: Source Sans Pro;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+header .container{
+    width: 92%;
+
+}
+.medsos{
+    background-color: #057dff;
+}
+.icon-medsos{
+    margin: 0 5px;
+    font-size: 14pt;
+    color: white;
+}
+.hot-menu-text{
+    font-size: 12pt;
+    margin-left: 10px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.menu-medsos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.hot-menu, .right-medsos{
+    display: flex;
+    align-items: center;
+}
+.right-medsos i, .hot-menu-text{
+    color: rgb(60, 60, 60);
+    margin-left: 10px;
+}
+.navbar-top, .menu-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+#search-box{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 8px 8px;
+    font-size: 12pt;
+    font-weight: 300;
+}
+.menu-bottom li{
+    list-style: none;
+
+}
+.nav-link-bottom{
+    text-decoration: none;
+    font-size: 14pt;
+    color: #333;
+    font-weight: 700;
+}
+#logo{
+    width: 180px;
+}
+header{
+    border-bottom: 1.3px solid rgb(202, 202, 202);
+}
