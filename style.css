@@ -44,14 +44,29 @@ header .container{
     align-items: center;
     margin: 12px 0;
 }
-
-#search-box{
+#search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
     width: 300px;
     border-radius: 5px;
     border: 1px solid rgb(173, 173, 173);
-    padding: 8px 8px;
     font-size: 12pt;
     font-weight: 300;
+}
+#search-box{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#icon-search{
+    color: rgb(173, 173, 173);
+    padding: 10px 0;
 }
 .menu-bottom li{
     list-style: none;
@@ -61,7 +76,7 @@ header .container{
     text-decoration: none;
     font-size: 14pt;
     color: #333;
-    font-weight: 700;
+    font-weight: 600;
 }
 #logo{
     width: 180px;
@@ -69,3 +84,38 @@ header .container{
 header{
     border-bottom: 1.3px solid rgb(202, 202, 202);
 }
+
+/* main content */
+.card-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card-img{
+    border-radius: 5px;
+    width: 360px;
+    transition: .35s ease;
+}
+.card-img:hover{
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.4);
+}
+.card-link{
+    flex: 1;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 16pt;
+}
+.card-description{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.download-group{
+    display: flex;
+    justify-content: space-between;
+}
+/* akhir main content */
